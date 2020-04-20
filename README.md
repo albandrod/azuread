@@ -12,9 +12,15 @@ So I want to share my findings, maybe someone looking for it too :)
 
 Here you can find how to use PowerShell with Graph API for:
 
-1. Connect to the Azure tenant Graph API: https://github.com/lightupdifire/azuread/blob/master/Get-AccessToken.ps1
-2. Get all tenant Guest users
-3. Register/Invite B2B account
+1. Connect to the Azure tenant Graph API: 
+https://github.com/lightupdifire/azuread/blob/master/Get-AccessToken.ps1
+
+2. Get all tenant Guest users:
+https://raw.githubusercontent.com/lightupdifire/azuread/master/Get-AllGuestUsers.ps1
+
+3. Register/Invite B2B account:
+
+
 4. Send mail to B2B user
 5. Disable B2B account
 6. Add B2B account to group(s)
