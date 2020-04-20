@@ -4,7 +4,7 @@ Hello!
 
 Recently I was working on creating synchronization between two platforms, 
 The source contains all users and the destination was Azure cloud, 
-In Azure cloud B2B account must be created coparing with source, 
+In Azure cloud B2B account must be created comparing with source, 
 Both, the source and destination, use the REST API and a coding tool was PowerShell.
 
 It took me some time to find all needed commands to set this up, 
