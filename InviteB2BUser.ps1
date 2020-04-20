@@ -179,7 +179,7 @@ $invitationstatus = $invite.status
 write-host "You can replace value below in script and remove Read-Host prompt and add user email address, or use in ForEach loop" -ForeGroundColor Magenta
 $UserToInvite = Read-Host -Prompt "Please type here email address of the user you want to invite, without quotas"
 # Checking email format, should be supported email address
-$UserToInviteCheck = EmailRegexCheck -EmailRegexInput $UserToInvite
+$UserToInviteCheck = EmailRegexCheck -EmailRegexInput $UserToInvite -ErrorAction Stop
 If ($UserToInviteCheck -eq $false){
 write-host "Entered email address: $UserToInvite has a bad email format" -ForeGroundColor Red
 $logdata = "Entered email address: $UserToInvite has a bad email format"
