@@ -41,4 +41,4 @@ https://github.com/lightupdifire/azuread/blob/master/InviteB2BUser.ps1
 
 Here I will place all script separately, so you can take parts of it and integrate it in one big if you need it.
 
-In future I plan to integrate it directly with Azure Blob/Table, so any response file or log file will be saved in Azure cloud too.
+In the future, I plan to integrate it directly with Azure Blob/Table, so any response file or log file will be saved in the Azure cloud too.
