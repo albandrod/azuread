@@ -26,8 +26,8 @@ $clientSecret = "Please replace with your Application Secret key"
 #
 $workdir = Get-Location
 $date = Get-Date
-$logfile = "$workdir\" + "Get-AccessToken_" + $date.day + "-" + $date.month + "-" + $date.year + ".log"
-$Transcript = "$workdir\" + "Get-AccessToken_transcript" + $date.day + "-" + $date.month + "-" + $date.year + ".log"
+$logfile = "$workdir\" + "Get-AllGuestUsers_" + $date.day + "-" + $date.month + "-" + $date.year + ".log"
+$Transcript = "$workdir\" + "Get-AllGuestUsers_transcript" + $date.day + "-" + $date.month + "-" + $date.year + ".log"
 #
 # Setting up Variables End
 ################################################################################################################################################
