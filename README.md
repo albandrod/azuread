@@ -1,4 +1,4 @@
-# azuread
+# Azure AD | Azure B2B | Graph API
 
 Hello!
 
