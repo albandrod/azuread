@@ -44,6 +44,7 @@ Function Get-AccessToken {
     param(
         [string]$clientID
         ,[string]$clientSecret
+	,[string]$tenantName
     )
 $ReqTokenBody = @{
     Grant_Type    = "client_credentials"
@@ -84,7 +85,7 @@ $AccessToken = $TokenResponse.access_token
 ################################################################################################################################################
 # Assign value to variable
 #
-$AccessToken = Get-AccessToken -clientid $clientID -clientSecret $clientSecret -ErrorAction Stop
+$AccessToken = Get-AccessToken -clientid $clientID -clientSecret $clientSecret -tenantName $tenantName -ErrorAction Stop
 # 
 ################################################################################################################################################
 ################################################################################################################################################
