@@ -19,14 +19,25 @@ https://github.com/lightupdifire/azuread/blob/master/Get-AccessToken.ps1
 https://github.com/lightupdifire/azuread/blob/master/Get-AllGuestUsers.ps1
 
 3. Register/Invite B2B account:
-
+https://github.com/lightupdifire/azuread/blob/master/InviteB2BUser.ps1
 
 4. Send mail to B2B user
+
+
 5. Disable B2B account
-6. Add B2B account to group(s)
+
+
+6. Add B2B account to group
+
+
 7. Update B2B account
+
+
 8. Check B2B account invitation status
+
+
 9. Check if B2B account is disabled
+
 
 Here I will place all script separately, so you can take parts of it and integrate it in one big if you need it.
 
