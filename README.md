@@ -16,7 +16,7 @@ Here you can find how to use PowerShell with Graph API for:
 https://github.com/lightupdifire/azuread/blob/master/Get-AccessToken.ps1
 
 2. Get all tenant Guest users:
-https://raw.githubusercontent.com/lightupdifire/azuread/master/Get-AllGuestUsers.ps1
+https://github.com/lightupdifire/azuread/blob/master/Get-AllGuestUsers.ps1
 
 3. Register/Invite B2B account:
 
