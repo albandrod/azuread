@@ -1,7 +1,8 @@
 ################################################################################################################################################
 ################################################################################################################################################
 # 
-# This script receive access token and send mail message
+# This script receive access token and can send mail message
+# Mail can be sent out from any mailbox in organization
 # Access Token is valid for 1 hour as a default configuration of Azure AD
 # When Access Token received, can operate with Graph  API with other operations like update/disable/create user etc.
 # Please Register Web Application in Azure AD and grant permissions, see: https://github.com/lightupdifire/azuread/wiki/Get-AccessToken
@@ -90,7 +91,7 @@ $AccessToken = Get-AccessToken -clientid $clientID -clientSecret $clientSecret -
 ################################################################################################################################################
 ################################################################################################################################################
 # Function for Send Mail start
-# Please grant application Mail send rights, see: https://github.com/lightupdifire/azuread/wiki/SendMail
+# Please grant application Mail Send rights, see: https://github.com/lightupdifire/azuread/wiki/SendMail
 # Mail can be sent from any mailbox in your organization
 # I'm providing example for HTML mail format
 #
