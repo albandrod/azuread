@@ -22,6 +22,7 @@ https://github.com/lightupdifire/azuread/blob/master/Get-AllGuestUsers.ps1
 https://github.com/lightupdifire/azuread/blob/master/InviteB2BUser.ps1
 
 4. Send mail to B2B user
+https://github.com/lightupdifire/azuread/blob/master/SendMail.ps1
 
 
 5. Disable B2B account
@@ -40,5 +41,7 @@ https://github.com/lightupdifire/azuread/blob/master/InviteB2BUser.ps1
 
 
 Here I will place all script separately, so you can take parts of it and integrate it in one big if you need it.
+
+For help, please check WIKI: https://github.com/lightupdifire/azuread/wiki
 
 In the future, I plan to integrate it directly with Azure Blob/Table, so any response file or log file will be saved in the Azure cloud too.
