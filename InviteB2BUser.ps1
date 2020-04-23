@@ -177,20 +177,23 @@ $invitationstatus = $invite.status
 # Please type email address of user you want to invite in prompt
 #
 write-host "You can replace value below in script and remove Read-Host prompt and add user email address" -ForeGroundColor Magenta
+#
 $UserToInvite = Read-Host -Prompt "Please type here email address of the user you want to invite, without quotas"
 #
 # Checking email format, should be supported email address, this can be removed in general, but to avoid wrong email format, could be handy
 #
 $UserToInviteCheck = EmailRegexCheck -EmailRegexInput $UserToInvite -ErrorAction Stop
+
 If ($UserToInviteCheck -eq $false){
-write-host "Entered email address: $UserToInvite has a bad email format" -ForeGroundColor Red
-$logdata = "Entered email address: $UserToInvite has a bad email format"
-$logdata | out-file -filepath $logfile -Append
+	write-host "Entered email address: $UserToInvite has a bad email format" -ForeGroundColor Red
+	$logdata = "Entered email address: $UserToInvite has a bad email format"
+	$logdata | out-file -filepath $logfile -Append
 }
-else{
-# Calling invitation function
-InviteB2BUser -AccessToken $AccessToken -UserToInvite $UserToInvite -TenantName $TenantName -DisplayName $UserToInvite -ErrorAction Stop
-}
+else
+	{
+	# Calling invitation function
+	InviteB2BUser -AccessToken $AccessToken -UserToInvite $UserToInvite -TenantName $TenantName -DisplayName $UserToInvite -ErrorAction Stop
+	}
 #
 ################################################################################################################################################
 ################################################################################################################################################
